@@ -36,16 +36,10 @@ def merge_to_area(arr, left, mid, right):
             s_arr[s_idx] = arr[i]
             s_idx += 1
 
-    print("sort_arr", s_arr)
-
     for i in range(left, right+1):
         arr[i] = s_arr[i]
 
     del s_arr
-
-from ch10_sort.bubble import bubble_sort
-from ch10_sort.selection import selection_sort
-from ch10_sort.insertion import insertion_sort
 
 if __name__ == '__main__':
 

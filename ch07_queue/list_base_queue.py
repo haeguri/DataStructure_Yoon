@@ -28,7 +28,7 @@ class ListBaseQueue():
 
         self.front = self.front.next
 
-        del rpos
+        # del rpos
         return rdata
 
     def is_empty(self):
